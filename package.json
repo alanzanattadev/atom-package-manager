@@ -1,0 +1,27 @@
+{
+  "name": "package-manager",
+  "main": "./lib/package-manager",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": ["npm:install", "npm:uninstall", "npm:select-package-file"]
+  },
+  "repository": "https://github.com/atom/package-manager",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "taskRunner": {
+      "versions": {
+        "^1.0.0": "consumeTaskRunner"
+      }
+    }
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "react-for-atom": "^15.0.2-0",
+    "redux": "^3.5.2"
+  }
+}
