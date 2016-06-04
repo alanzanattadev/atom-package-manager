@@ -2,6 +2,8 @@
 
 An integration of commons package manager (NPM, Bower, etc..) for Atom
 
+## REQUIRED PACKAGE
+  - task-runner
 
 ## Features
   - NPM Integration
